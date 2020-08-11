@@ -1,7 +1,4 @@
-;; What this script does is, it makes the pressed (held down) key sent repeatedly.
-;; You can set the key and the speed with which it is sent below.
-
-;setKeyDelay, 5, 5
+﻿;setKeyDelay, 5, 5
 ;setMouseDelay, 5
 
 $~lbutton::

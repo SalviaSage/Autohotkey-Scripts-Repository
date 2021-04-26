@@ -80,9 +80,9 @@ FormatTime, TimeString,, HH:mm:ss
 Send %TimeString%
 return
 
-^+f9:: ;; Inserts my own name.
+^+f9:: ;; Inserts your name.
 KeyWait, Shift
 KeyWait, Control
 KeyWait, f9
-Send Mr. Ozgun Oztekin
+Send Mr. Name LastName
 return

@@ -1,33 +1,31 @@
 ;; Holdable Caps Lock
+
 ;; Changes the default toggleable behaviour of caps lock to holdable.
-;; Activated by default, press ctrl+alt+t to de-activate, the tray icon will turn to the red icon (inactive) from the blue keyboard icon (active).
+;; Not activated by default. Press Ctrl+Alt+T to activate. The tray icon will turn to the red icon (active) from the blue icon (inactive).
+;; v1.1 ;; Second Release
 
-;; v1.0 ;; First Release ;;
+#persistent
+#singleInstance, Force
+Menu, Tray, Icon, Shell32.dll, 75 ;; inactive state icon
+global toggle := 0
 
-{ ;; AUTOEXEC
-	#persistent
-	#singleInstance, Force
-	Menu, Tray, Icon, Shell32.dll, 174 ;; active state icon (blue keyboard icon)
-	toggle := 1
-}
 return
 
-;; set ctrl+alt+t to toggle it on or off
+;; Set ctrl+alt+t to toggle it on or off.
 ^!t::
 	toggle := !toggle
-	;; toggle is 1
+		;; toggle is 1
 	if(toggle) {
-		Menu, Tray, Icon, Shell32.dll, 174 ;; active state icon (blue keyboard icon)
+		Menu, Tray, Icon, Shell32.dll, 74 ;; active state icon
 	} else {
 		;; toggle is 0
-		Menu, Tray, Icon, Shell32.dll, 110  ;; inactive state icon (red icon)
+		Menu, Tray, Icon, Shell32.dll, 75  ;; inactive state icon
 	}
 return
 
 ;; THE CODE BELOW WILL ONLY WORK IF TOGGLE IS == 1
 
 ;; BELOW ARE THE BASE KEYS.
-;toggle := 1
 
 #if toggle
 	*CapsLock::

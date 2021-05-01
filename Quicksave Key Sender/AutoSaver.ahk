@@ -3,6 +3,9 @@
 ;; The script is turned off by default and has to be turned on by pressing ctrl + alt + o.
 
 ;; User Data
+
+Menu, Tray, Tip,AutoSaver.exe / Hit CTRL + ALT + O to send the F5 key every 5 minutes.
+
 {
 	global QUICK_SAVE_KEY     := "F5"        ;; set the key combo for quick saving
 	global QUICK_SAVE_TIMEOUT := 300 * 1000     ;; 300 seconds, or 5 minutes

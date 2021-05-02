@@ -18,7 +18,7 @@ Menu, Tray, Icon, Shell32.dll, 78 ;; icon
 Menu, Tray, Tip, Holdable caps lock active / Toggle caps lock by hitting the caps lock key twice.
 
 cap := 0
-CapsLock::
+*CapsLock::
 	SetCapsLockState On
 	if (A_PriorHotkey == "~CapsLock Up" and A_TimeSincePriorHotkey <= 200) {
 		cap := 1-cap

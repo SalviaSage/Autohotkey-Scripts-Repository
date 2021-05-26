@@ -2,6 +2,8 @@
 ;; I just added the tray icon and the tray tooltip.
 ;; Everything else is the same.
 
+;; Will not work, unless already on the desktop background, which can be switched to by hitting WIN+D.
+
 SetTitleMatchMode 2
 #SingleInstance ignore
 ;#NoTrayIcon

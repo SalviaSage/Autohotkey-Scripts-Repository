@@ -1,6 +1,16 @@
-;; Press the ctrl+shift+function keys to type in the current time or date.
+;; Hotkeys Assigned: (Control + Alt + F1) key.
+;; Hotkeys Assigned: (Control + Alt + F2) key.
+;; Hotkeys Assigned: (Control + Alt + F3) key.
+;; Hotkeys Assigned: (Control + Alt + F4) key.
+;; Hotkeys Assigned: (Control + Alt + F5) key.
+;; Hotkeys Assigned: (Control + Alt + F6) key.
+;; Hotkeys Assigned: (Control + Alt + F7) key.
+;; Hotkeys Assigned: (Control + Alt + F8) key.
+
+;; Press the ctrl+alt+function keys to type in the current time or date.
 ;; It will only be sent once the keys that are pressed are let go.
 
+Menu, Tray, Tip, % "Stamper: Hit CTRL + ALT + F1-F4 to send the current date, F5-F8 to send current time"
 Menu, Tray, Icon, Shell32.dll, 160 ;; icon.
 
 #InstallKeybdHook
@@ -16,73 +26,66 @@ SetTitleMatchMode, 2
 SendMode Input ;; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir% ;; Ensures a consistent starting directory.
 
-^!f1:: ;; Inserts the current date in ISO format. (YYYY-MM-DD)
-KeyWait, Shift
+^!F1:: ;; Inserts the current date in ISO format. (YYYY-MM-DD)
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f1
+KeyWait, F1
 FormatTime, TimeString,, yyyy-MM-dd
 Send %TimeString%
 return
 
-^!f2:: ;; Inserts the current date in long format. (NameOfDay, NameOfMonth D, YYYY)
-KeyWait, Shift
+^!F2:: ;; Inserts the current date in long format. (NameOfDay, NameOfMonth D, YYYY)
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f2
+KeyWait, F2
 FormatTime, TimeString,, LongDate
 Send %TimeString%
 return
 
-^!f3:: ;; Inserts the name of the current day.
-KeyWait, Shift
+^!F3:: ;; Inserts the name of the current day.
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f3
+KeyWait, F3
 FormatTime, TimeString,, dddd
 Send %TimeString%
 return
 
-^!f4:: ;; Inserts the name of the current month.
-KeyWait, Shift
+^!F4:: ;; Inserts the name of the current month.
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f4
+KeyWait, F4
 FormatTime, TimeString,, MMMM
 Send %TimeString%
 return
 
-^!f5:: ;; Inserts the current time in the 12 hour format. (without seconds)
-KeyWait, Shift
+^!F5:: ;; Inserts the current time in the 12 hour format without seconds.
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f5
+KeyWait, F5
 FormatTime, TimeString,, Time
 Send %TimeString%
 return
 
-^!f6:: ;; Inserts the current time in the 24 hour format. (without seconds)
-KeyWait, Shift
+^!F6:: ;; Inserts the current time in the 24 hour format without seconds.
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f6
+KeyWait, F6
 FormatTime, TimeString,, HH:mm
 Send %TimeString%
 return
 
-^!f7:: ;; Inserts the current time in the 12 hour format. (with seconds)
-KeyWait, Shift
+^!F7:: ;; Inserts the current time in the 12 hour format with seconds.
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f7
+KeyWait, F7
 FormatTime, TimeString,, hh:mm:ss tt
 Send %TimeString%
 return
 
-^!f8:: ;; Inserts the current time in the 24 hour format. (with seconds)
-KeyWait, Shift
+^!F8:: ;; Inserts the current time in the 24 hour format with seconds.
+KeyWait, Alt
 KeyWait, Control
-KeyWait, f8
+KeyWait, F8
 FormatTime, TimeString,, HH:mm:ss
 Send %TimeString%
-return
-
-^!f9:: ;; Inserts your name.
-KeyWait, Shift
-KeyWait, Control
-KeyWait, f9
-Send Mr. Name LastName
 return

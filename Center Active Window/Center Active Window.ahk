@@ -1,5 +1,5 @@
-;; Hotkeys Assigned: Right Shift + C key.
-;; Hotkeys Assigned: Right Shift + B key.
+;; Hotkeys Assigned: Ctrl + Alt + C key.
+;; Hotkeys Assigned: Ctrl + Alt + B key.
 
 #NoEnv ;; Recommended for performance and compatibility with future AutoHotkey releases.
 ;#Warn ;; Enable warnings to assist with detecting common errors.
@@ -7,9 +7,9 @@ SendMode Input ;; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir% ;; Ensures a consistent starting directory.
 
 Menu, Tray, Icon, Shell32.dll, 253
-Menu, Tray, Tip, % "Center active windows with the Right Shift + C key`nand reverse it by pressing the Right Shift + B key"
+Menu, Tray, Tip, % "Center active windows with the Ctrl + Alt + C key`nand reverse it by pressing the Ctrl + Alt + B key."
 
-RShift & C::
+^!c::
 
 global WindowName
 global X
@@ -29,7 +29,7 @@ CenterWindow(WindowTitleVariable)
 CenterWindow(WindowName)
 return
 
-RShift & B::
+^!b::
 WinMove, %WindowName%,, X, Y, BegWidth, BegHeight
 
 return

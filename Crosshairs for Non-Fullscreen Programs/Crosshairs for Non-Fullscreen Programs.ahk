@@ -1,16 +1,13 @@
-;; This makes it so that crosshairs are drawn on the screen but it does not work with full screen games / programs.
-;; Some monitors come with built in crosshairs that can be turned on, those do work full-screen.
-
-;; Hotkeys Assigned: F10 key.
-;; Hotkeys Assigned: F11 key key.
-
 /*
 © 2017 Commanding
 Free to use/distribute/change, but please give credit to the original!
 */
 
-Menu, Tray, Icon, Shell32.dll, 44 ;; icon
-Menu, Tray, Tip, Crosshairs: Press F10 for the crosshairs menu | Press F11 to hide or show
+;; This makes it so that crosshairs are drawn on the screen but it does not work with full screen games / programs.
+;; Some monitors come with built in crosshairs that can be turned on, those do work full-screen.
+
+Menu, Tray, Icon, Shell32.dll, 160 ;; icon
+Menu, Tray, Tip, % "Crosshairs: Press Ctrl + Shift + F11 to hide or show the crosshairs`nPress F10 to hide or show the crosshairs menu."
 
 #SingleInstance, force
 Menu, Tray, NoStandard
@@ -65,7 +62,7 @@ menuYpos := Ypos+50
 Gui, +E0x80020
 return
 
-F11::
+^+F11::
 if invisible = 0
 {
 	invisible = 1
@@ -79,7 +76,7 @@ Else
 }
 return
 
-F10::
+^+F10::
 if menutoggle = 0
 {
 	menutoggle = 1
@@ -265,7 +262,7 @@ Else
 	Gui -dpiscale
 	Gui margin,0,0
 	Gui shadowbox2:Add,Listview, w35 h35 Background%selection2color% vSelection2 gSelection2 -Hdr -E0x200 -border AltSubmit
-	Gui, shadowbox2:+Ownercolorslider
+	Gui, shadowbox2:+Ownercolorslider 
 	Gui, shadowbox2:Show,x%box2Xpos% y%box2Ypos% w35 h35, Preview 1
 
 	Gui, shadowbox3:New, +AlwaysOnTop +E0x08000000 -Caption

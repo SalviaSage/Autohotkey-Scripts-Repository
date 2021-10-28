@@ -6,8 +6,8 @@ Free to use/distribute/change, but please give credit to the original!
 ;; This makes it so that crosshairs are drawn on the screen but it does not work with full screen games / programs.
 ;; Some monitors come with built in crosshairs that can be turned on, those do work full-screen.
 
-Menu, Tray, Icon, Shell32.dll, 160 ;; icon
-Menu, Tray, Tip, % "Crosshairs: Press Ctrl + Shift + F11 to hide or show the crosshairs`nPress F10 to hide or show the crosshairs menu."
+Menu, Tray, Icon, compstui.dll, 52 ;; icon
+Menu, Tray, Tip, % "Crosshairs: Press Ctrl+Shift+F11 to hide or show the crosshairs.`n`nPress F10 to hide or show the crosshairs menu."
 
 #SingleInstance, force
 Menu, Tray, NoStandard

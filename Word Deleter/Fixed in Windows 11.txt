@@ -1,0 +1,2 @@
+This issue has been fixed in Windows 11.
+So, this script is only suitable to be used with Windows 10.

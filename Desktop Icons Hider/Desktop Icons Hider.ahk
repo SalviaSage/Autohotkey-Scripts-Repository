@@ -8,12 +8,12 @@ SetTitleMatchMode 2
 #SingleInstance ignore
 ;#NoTrayIcon
 
-Menu, Tray, Icon, Shell32.dll, 3 ;; icon.
-Menu, Tray, Tip, Press WinKey + Alt + D to hide desktop icons.
+Menu, Tray, Icon, Shell32.dll, 95 ;; icon.
+Menu, Tray, Tip, Press Win+Alt+D to hide desktop icons.
 
 !#D:: ;; Hotkey Definition: WinKey + Alt + D
 
-	;; https://stackoverflow.com/questions/53109281/what-is-the-windows-workerw-windows-and-what-creates-them
+	;https://stackoverflow.com/questions/53109281/what-is-the-windows-workerw-windows-and-what-creates-them
 	ControlGet, HWND, Hwnd,, SysListView321, ahk_class WorkerW
 
 ;; Toggle between displaying and hiding the desktop icons

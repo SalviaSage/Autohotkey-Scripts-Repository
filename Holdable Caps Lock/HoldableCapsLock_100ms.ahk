@@ -14,8 +14,8 @@
 #persistent
 #singleInstance, Force
 
-Menu, Tray, Icon, Shell32.dll, 78 ;; icon
-Menu, Tray, Tip, Holdable caps lock active / Toggle caps lock by hitting the caps lock key twice.
+Menu, Tray, Icon, pifmgr.dll, 13 ;; icon
+Menu, Tray, Tip, % "HoldableCapsLock`n`nToggle Caps Lock by hitting the caps lock key twice."
 
 cap := 0
 *CapsLock::

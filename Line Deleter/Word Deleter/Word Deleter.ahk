@@ -19,7 +19,7 @@ Just like in Notepad.
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
-Menu, Tray, Tip, % "Word Deleter: Delete an entire word by pressing Ctrl + Backspace."
+Menu, Tray, Tip, % "Word Deleter:`n`nDelete an entire word by pressing Ctrl + Backspace."
 Menu, Tray, Icon, imageres.dll, 90
 
 ^BS::Send {Shift Down}^{Left}{Shift Up}{Del}

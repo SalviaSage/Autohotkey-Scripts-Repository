@@ -1,4 +1,4 @@
-﻿;; Holdable Caps Lock v1.4
+;; Holdable Caps Lock v1.5
 
 ;; Changes the default toggleable behaviour of caps lock to holdable.
 ;; Also, still retains the toggleable behaviour, but this is now toggled by hitting the caps lock key twice, instead of once.
@@ -9,13 +9,13 @@
 ;; So, this script would run in the background while one of those keyboard layout typing methods are active.
 ;; Then, it makes typing easier. You can think of it like a typer helper.
 
-;; A bug with the modifier keys has been fixed in version 1.4.
+;; A bug with the modifier keys has been fixed in version 1.5.
 
 #persistent
 #singleInstance, Force
 
 Menu, Tray, Icon, pifmgr.dll, 13 ;; icon
-Menu, Tray, Tip, % "HoldableCapsLock`n`nToggle Caps Lock by hitting the caps lock key twice."
+Menu, Tray, Tip, % "HoldableCapsLock`n`100ms`n`nToggle Caps Lock by hitting the caps lock key twice."
 
 cap := 0
 *CapsLock::

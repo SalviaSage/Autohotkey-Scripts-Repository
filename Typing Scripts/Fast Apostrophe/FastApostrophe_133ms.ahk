@@ -12,7 +12,7 @@
 #singleInstance, Force
 
 Menu, Tray, Icon,  imageres.dll, 174 ;; icon
-Menu, Tray, Tip, % "FastApostrophe`n125ms"
+Menu, Tray, Tip, % "FastApostrophe`n133ms"
 
 doExtraStuff := 0
 doExtraStuff1 := 0

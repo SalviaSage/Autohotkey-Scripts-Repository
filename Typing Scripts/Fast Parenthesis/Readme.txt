@@ -1,12 +1,10 @@
-Fast Apostrophe;
+Fast Parenthesis;
 
 The idea behind this script is to create a computer program that runs in the background
-which gives the typer an easy way to type the apostrophe, the quotation marks, the
-ellipsis and other similar punctuation marks. It is intended to be language independent.
+which gives the typer an easy way to type parenthesis, brackets and curly brackets.
 
-Basically, you press a certain similar key twice or thrice in order to get another key.
-Most people just make do with what the keyboard has, but if you are a writer it just isn't enough.
+;; Hit the '(' key on the keyboard twice to get the '()' keys.
+;; Hit the '[' key on the keyboard twice to get the '[]' keys.
+;; Hit the '{' key on the keyboard twice to get the '{}' keys.
 
-Has: Fast Apostrophe (hit ' two times)
-	Fast Quotation marks (hit shift+" two times)
-	Fast Ellipsis (hit the . key three times)
+;; This helps in typing the parentheses fast since they are always used as doubles.

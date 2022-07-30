@@ -12,14 +12,16 @@ List: Double tapping 'a' gives us 'á'.
 	
 	Double tapping 'n' gives us 'ñ'.
 
-	Typing u^.. gives us ü
+	Typing u^.. gives us ü.
 
 It also has capital letters.
 
-For example: Double tapping shift+e gives us 'É'.
-             Double tapping shift+n gives us 'Ñ'.
+For example:
+Double tapping shift+e gives us 'É'.
+Double tapping shift+n gives us 'Ñ'.
 
-Punctuation marks: Double tapping '?' gives us '¿?'.
-			 Double tapping '!' gives us '¡!'.
+Punctuation marks:
+Double tapping '?' gives us '¿?'.
+Double tapping '!' gives us '¡!'.
 
 This version is for Spanish.

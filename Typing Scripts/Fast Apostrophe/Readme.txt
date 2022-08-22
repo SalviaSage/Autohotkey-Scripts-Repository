@@ -1,0 +1,2 @@
+This program is aimed at people who want to type languages appropriately orthographically.
+It keeps the original keys of the keyboard and thus does not break anything but it adds some keys that are useful for typing languages.

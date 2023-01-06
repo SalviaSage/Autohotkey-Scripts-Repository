@@ -1,0 +1,8 @@
+﻿{
+	"Language": "Swedish",
+	"Transpositions":
+	{
+		"a": ["ä", "å"],
+		"o": ["ö"]
+	}
+}

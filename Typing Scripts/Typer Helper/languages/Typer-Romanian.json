@@ -1,0 +1,11 @@
+﻿{
+	"Language": "Romanian",
+	"Transpositions":
+	{
+		"a": ["ă", "â"],
+		"i": ["î"],
+
+		"s": ["ș"],
+		"t": ["ț"]
+	}
+}

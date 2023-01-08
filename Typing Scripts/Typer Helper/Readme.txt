@@ -5,7 +5,7 @@ This program was made to address the problem of not being able to type
 various different markings that go on top of and under the letters(diacritics)
 in various different languages and alphabets.
 
-Basically, copy and paste the .json file that is inside the 'inactive' folder of the language/alphabet that you are interested into
+Basically, copy and paste the .json file that is inside the 'languages' folder of the language/alphabet that you are interested into
 the main program directory. Then launch the program and press F12 and it will give you a menu from where you can select the language
 or the alphabet that you are interested in typing.
 

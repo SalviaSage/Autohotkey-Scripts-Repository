@@ -1,0 +1,8 @@
+Bugs;
+
+– Preferably, we want only the character to be held down and not the key.
+For example: We want to type the fraction slash. We can type it by holding down the / key on the keyboard.
+As it is desired. However, if we press shift + / key and hold it down, we still type the fraction slash.
+This key itself, shift + / is the question mark key. So, it shouldn't be based on the key but based on the character.
+
+Currently, it works based on the key. There may be a way to change that.

@@ -1,6 +1,7 @@
 ﻿;; Wiktionary Searcher
 
 ;; This script makes it so that upon hitting "ctrl + shift + alt + F" the selected word gets copied and pasted into the Wiktionary.org search bar.
+;; In this language specific version, we target the language we are interested in.
 
 
 #NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
@@ -9,7 +10,7 @@ SendMode Input ; Recommended for new scripts due to its superior speed and relia
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 Menu, Tray, Icon, imageres.dll, 8 ;; icon
-Menu, Tray, Tip, % "Wiktionary Searcher`n`nHighlight a word and press :`nCtrl + Shift + Alt + F"
+Menu, Tray, Tip, % "Wiktionary Searcher ( French )`n`nHighlight a word and press :`nCtrl + Shift + Alt + F"
 
 ^!+F::
 	send, ^{c}
@@ -21,5 +22,7 @@ Menu, Tray, Tip, % "Wiktionary Searcher`n`nHighlight a word and press :`nCtrl�
 	send, !+{f}
 	send, ^{v}
 	sleep 100
+	send, {#}
+	send, French
 	send {Enter}
 return

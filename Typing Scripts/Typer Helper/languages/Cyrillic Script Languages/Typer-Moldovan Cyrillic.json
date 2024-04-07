@@ -1,0 +1,12 @@
+﻿{
+	"Language": "Moldovan (Cyrillic)",
+	"Transpositions":
+	{
+		"a": ["{U+044F}"],
+		"e": ["{U+044D}"],
+		"i": ["{U+0439}"],
+		"u": ["{U+044E}"],
+
+		"x": ["{U+04C2}"]
+	}
+}

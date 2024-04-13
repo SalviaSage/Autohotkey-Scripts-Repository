@@ -1,0 +1,15 @@
+﻿{
+	"Language": "Finnish / Estonian / Karelian",
+	"Transpositions":
+	{
+		"a": ["ä", "å"],
+		"o": ["ö", "õ"],
+		"u": ["ü"],
+
+		"c": ["č"],
+		"s": ["š"],
+		"z": ["ž"],
+
+		"$": ["{U+20AC}"]
+	}
+}

@@ -1,0 +1,10 @@
+﻿{
+	"Language": "Sesotho",
+	"Transpositions":
+	{
+		"e": ["è", "ē"],
+		"o": ["ò", "ō"],
+
+		"s": ["š"]
+	}
+}

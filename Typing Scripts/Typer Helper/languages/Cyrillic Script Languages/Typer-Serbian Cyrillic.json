@@ -1,9 +1,0 @@
-﻿{
-	"Language": "Serbian ( Cyrillic )",
-	"Transpositions":
-	{
-		"i": ["{U+0458}"],
-		"n": ["{U+045A}"],
-		"l": ["{U+0459}"]
-	}
-}

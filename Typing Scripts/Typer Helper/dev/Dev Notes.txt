@@ -1,0 +1,23 @@
+With regards to typing characters with combining diacritics;
+
+This works as expected.
+
+For example;
+
+"n": ["{U+006E}{U+0304}"]
+
+This gives us the letter n with a macron on top of it.
+Normally, this is not a letter of Unicode, but we can still type it simply by placing the codepoint of the combining diacritic
+directly next to the subject letter.
+
+HOWEVER, TURNING ON CAPS LOCK DOES NOT GIVE US CAPITAL FORMS OF THESE LETTERS.
+THEREFORE, FOR THE NEXT TAP, WE HAVE TO ADD THE CAPITAL FORM OF THE LETTER MANUALLY AS THE COMPUTER DOES NOT AUTOMATE IT FOR US.
+
+—————
+
+With regards to the program not working for non-latin keys;
+The problem is that if we are using a non-latin keyboard layout with assigned non-latin keys,
+the keys do not work appropriately and or that the program gives an error popup.
+
+I don't know how to make holdables for non-latins at the moment but this is something of interest as it can help the typist type in non-latin alphabets
+in an easier way.

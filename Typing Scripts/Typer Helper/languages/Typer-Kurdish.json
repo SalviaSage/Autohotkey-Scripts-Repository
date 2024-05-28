@@ -1,0 +1,12 @@
+﻿{
+	"Language": "Kurdish ( Latin )",
+	"Transpositions":
+	{
+		"e": ["ê"],
+		"i": ["î"],
+		"u": ["û"],
+
+		"c": ["ç"],
+		"s": ["ş"],
+	}
+}

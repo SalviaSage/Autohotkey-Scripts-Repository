@@ -1,0 +1,14 @@
+﻿{
+	"Language": "Georgian Khutsuri ( ⴞⴚⴓⴐⴈ )",
+	"Transpositions":
+	{
+		"c": ["{U+2D1D}"],
+		"k": ["{U+2D09}", "{U+2D17}"],
+		"p": ["{U+2D0E}"],
+		"t": ["{U+2D12}"],
+		"h": ["{U+2D1E}"],
+		"w": ["{U+2D1C}"],
+
+		"$": ["{U+20BE}"]
+	}
+}

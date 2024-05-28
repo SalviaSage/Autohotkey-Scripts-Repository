@@ -1,0 +1,11 @@
+﻿{
+	"Language": "Japanese (Latin)",
+	"Transpositions":
+	{
+		"a": ["ā"],
+		"e": ["ē"],
+		"i": ["ī"],
+		"o": ["ō"],
+		"u": ["ū"]
+	}
+}

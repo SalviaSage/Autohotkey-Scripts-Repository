@@ -1,0 +1,12 @@
+﻿{
+	"Language": "Danish / Norwegian / Swedish",
+	"Transpositions":
+	{
+		"a": ["æ", "å", "ä"],
+		"o": ["ø", "ö"],
+		"u": ["ü"],
+
+		"1": ["{U+030A}"],
+		"2": ["{U+0308}"]
+	}
+}

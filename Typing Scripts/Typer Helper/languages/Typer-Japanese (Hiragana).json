@@ -1,0 +1,9 @@
+﻿{
+	"Language": "Japanese ( Hiragana ) (  ひらがな )",
+	"Transpositions":
+	{
+		"a": ["{U+3083}"],
+		"o": ["{U+3087}"],
+		"u": ["{U+3085}"]
+	}
+}

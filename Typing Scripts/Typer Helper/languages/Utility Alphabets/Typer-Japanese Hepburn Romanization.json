@@ -1,0 +1,13 @@
+﻿{
+	"Language": "Japanese ( Hepburn Romanization )",
+	"Transpositions":
+	{
+		"a": ["ā"],
+		"e": ["ē"],
+		"i": ["ī"],
+		"o": ["ō"],
+		"u": ["ū"],
+
+		"$": ["{U+00A5}"]
+	}
+}

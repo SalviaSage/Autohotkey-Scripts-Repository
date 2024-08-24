@@ -1,0 +1,68 @@
+DEV NOTES FOR TYPER HELPER;;
+
+With regards to typing characters with combining diacritics;
+"n": ["{U+006E}{U+0304}"]
+
+This gives us the letter n with a macron on top of it.
+Normally, this is not a letter of Unicode, but we can still type it simply by placing the codepoint of the combining diacritic directly next to the subject letter.
+
+For proper capitalisation of single characters, Unicode codes should not be used.
+"n": ["{U+00F1}"] will not capitalise when pressing shift or capslock.
+"n": ["ñ"] will capitalise when pressing shift or capslock.
+
+--- IMPORTANT SECTION ---
+This means that caseless alphabets where there are possible mappings of lower-case to upper-case letters such as the International Phonetic Alphabet and the Translingual Phonetic Alphabet should have the characters listed with Unicode codes to prevent accidental capitalisation.
+--- IMPORTANT SECTION ---
+
+—————
+Pressing shift or capslock to get capitalised forms of letters with combining diacritics may fail to give capitalised forms.
+For example;
+
+Trial of: "c": ["ç", "č", "č̣"],
+The first two are single unicode characters while the last one is {U+010D}{U+0323}.
+All three capitalise correctly.
+
+Trial of: "g̃": ["g̃"],
+This is the letter "g" with the combining diacritic tilde from the spelling of Guarani.
+When we press shift + g, we do get the capital form of the letter correctly.
+But not when we use CapsLock.
+—————
+With regards to the program not working for non-latin keys;
+The problem is that if we are using a non-latin keyboard layout with assigned non-latin keys,
+the keys do not work appropriately and or that the program gives an error popup.
+
+I tested the program with non-latin alphabet layouts and it does work.
+It might give an error in which case, the program can be restarted or the keyboard layouts can be switched for the program to work.
+—————
+With regards to moving the cursor left or right, the syntax {Left} and {Right} does work.
+—————
+{Backspace} is the correct way to send the backspace control character. Its Unicode {U+0008} does not work.
+—————
+Demonstration of the correct syntax for using space as a key:
+
+{
+	"Language": "Spanish",
+	"Transpositions":
+	{
+		"space": ["ó", "º"]
+	}
+}
+
+This does work and triggers like any other key correctly.
+I think it is particularly useful for working with the virama keys of Indic scripts.
+—————
+
+Reph, for indic scripts can be automated and should be tested to ensure its working.
+
+Vowels also have to be double checked for proper operation.
+
+—————
+It is possible to "skip" the character sequences by sending nothing.
+For example;
+"t": ["", "d"],
+
+When (t) is pressed, held and triggered, it will act like any other normal key. But if it is double tapped, it will send (d).
+
+We can also send the null character, in which case the (t) will just be deleted.
+For example;
+"t": ["{U+0000}", "d"],

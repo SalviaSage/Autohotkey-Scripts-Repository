@@ -1,0 +1,12 @@
+The correct location to place the zero width no-break space between punctuation marks is at the letters, not at the punctuation marks.
+
+For example;
+
+(PARENTHESIS)(SPACE)(ZWNBS)text(ZWNBS)(SPACE)(PARENTHESIS)
+
+The following is the WRONG example:
+
+(PARENTHESIS)(ZWNBS)(SPACE)text(SPACE)(ZWNBS)(PARENTHESIS)
+
+They have to anchor to text for the no-break operation to work.
+I just tested it with the quotation marks and the parentheses.

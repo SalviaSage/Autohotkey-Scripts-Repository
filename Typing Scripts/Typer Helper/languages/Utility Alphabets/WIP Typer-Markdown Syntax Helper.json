@@ -1,0 +1,8 @@
+﻿{
+	"Language": "WIP Markdown Syntax Helper WIP",
+	"Transpositions":
+	{
+		"*": ["**{Left}", "****{Left}{Left}", "******{Left}{Left}{Left}"],
+		"`": ["``{Left}", "```{Enter}"]
+	}
+}

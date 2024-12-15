@@ -1,5 +1,5 @@
 ﻿;; FastApostrophe, Hold Version, 200ms
-;; Press certain keys and hold for 250ms to send other keys.
+;; Press certain keys and hold for 200ms to send other keys.
 ;; A translingual program that aids in typing orthographical characters that are used across different languages.
 ;; Hit comma once to type the hair space, twice to type the zero width joiner, and thrice to type the non-breaking hyphen.
 

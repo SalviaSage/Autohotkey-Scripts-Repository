@@ -1,0 +1,10 @@
+﻿{
+	"Language": "Korean Romanization ",
+	"Transpositions":
+	{
+		"o": ["ŏ"],
+		"u": ["ŭ"],
+
+		"'": ["{U+02BC}"]
+	}
+}

@@ -1,0 +1,10 @@
+﻿{
+	"Language": "Maltese",
+	"Transpositions":
+	{
+		"c": ["ċ"],
+		"g": ["ġ"],
+		"h": ["ħ"],
+		"z": ["ż"]
+	}
+}

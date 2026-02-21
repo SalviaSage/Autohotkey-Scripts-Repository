@@ -1,0 +1,1 @@
+Bind Weapon Menu 1 to 6, 2 to 7, 3 to 8, 4 to 9, 5 to 0.

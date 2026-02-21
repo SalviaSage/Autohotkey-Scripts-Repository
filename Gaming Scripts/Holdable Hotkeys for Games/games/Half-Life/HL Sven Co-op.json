@@ -1,0 +1,16 @@
+﻿{
+	"Language": "HL Sven Co-op",
+	"Transpositions":
+	{
+		"1": ["{Numpad1}{Enter}", "{Numpad1}{Numpad1}{Enter}"],
+		"2": ["{Numpad2}{Enter}", "{Numpad2}{Numpad2}{Enter}"],
+		"3": ["{Numpad3}{Enter}", "{Numpad3}{Numpad3}{Enter}"],
+		"4": ["{Numpad4}{Enter}", "{Numpad4}{Numpad4}{Enter}"],
+		"5": ["{Numpad5}{Enter}", "{Numpad5}{Numpad5}{Enter}"],
+		"6": ["{Numpad6}{Enter}", "{Numpad6}{Numpad6}{Enter}"],
+		"7": ["{Numpad7}{Enter}", "{Numpad7}{Numpad7}{Enter}"],
+		"8": ["{Numpad8}{Enter}", "{Numpad8}{Numpad8}{Enter}"],
+		"9": ["{Numpad9}{Enter}", "{Numpad9}{Numpad9}{Enter}"],
+		"0": ["{Numpad0}{Enter}", "{Numpad0}{Numpad0}{Enter}"]
+	}
+}

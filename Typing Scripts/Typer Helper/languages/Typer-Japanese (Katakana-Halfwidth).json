@@ -1,9 +1,0 @@
-﻿{
-	"Language": "Japanese ( Katakana - Halfwidth ｶﾀｶﾅ )",
-	"Transpositions":
-	{
-		"a": ["{U+FF6C}"],
-		"o": ["{U+FF6E}"],
-		"u": ["{U+FF6D}"]
-	}
-}

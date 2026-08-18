@@ -1,0 +1,19 @@
+Name                    Description
+Numpad0 / NumpadIns     0 / Ins
+Numpad1 / NumpadEnd     1 / End
+Numpad2 / NumpadDown    2 / ↓
+Numpad3 / NumpadPgDn    3 / PgDn
+Numpad4 / NumpadLeft    4 / ←
+Numpad5 / NumpadClear   5 / typically does nothing
+Numpad6 / NumpadRight   6 / →
+Numpad7 / NumpadHome    7 / Home
+Numpad8 / NumpadUp      8 / ↑
+Numpad9 / NumpadPgUp    9 / PgUp
+NumpadDot / NumpadDel   . / Del
+NumLock                 NumLock (number lock key). While Ctrl is held down, NumLock produces
+                        the key code of Pause, so use ^Pause in hotkeys instead of ^NumLock.
+NumpadDiv               / (division)
+NumpadMult              * (multiplication)
+NumpadAdd               + (addition)
+NumpadSub               - (subtraction)
+NumpadEnter             Enter

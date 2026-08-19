@@ -1,9 +1,0 @@
-﻿{
-	"Language": "Japanese ( Katakana カタカナ )",
-	"Transpositions":
-	{
-		"a": ["{U+30E3}"],
-		"o": ["{U+30E7}"],
-		"u": ["{U+30E5}"]
-	}
-}
